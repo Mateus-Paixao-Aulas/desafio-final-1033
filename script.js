@@ -16,8 +16,6 @@ const turmas = []
 // Cadastro de turmas
 // Turma com o código já existente
 const cadastrarTurma = ({codigo, maximoDeAlunos}) => {
-
-    // const turmaEncontrada = turmas.filter(turma => turma.codigo === codigo).length
     const turmaEncontrada = turmas.find(turma => turma.codigo === codigo)
 
     codigo = parseInt(codigo)
