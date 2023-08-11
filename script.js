@@ -38,5 +38,4 @@ const cadastrarTurma = ({codigo, maximoDeAlunos}) => {
     return turmas
 }
 
-// console.log(turma)
 console.log('SAÍDA', turmas)
